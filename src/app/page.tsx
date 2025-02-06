@@ -51,7 +51,7 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="flex-1 flex items-center justify-center p-4 mb-16">
-        <div className="max-w-md w-full space-y-8 text-center">
+        <div className="max-w-md w-full space-y-5 text-center">
           {/* Social Links */}
           <div className="flex justify-center gap-4 mb-6">
             {/* <Button variant="outline" size="icon" className="rounded-full bg-[#0a0711]/50 border-[#98ff99]">
@@ -121,7 +121,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="py-8 text-center text-gray-400">
+      <footer className="py-5 text-center text-gray-400">
         <p className="flex items-center justify-center gap-1">
           © 2025 Built with
           <span className="text-[#98ff99]">❤️</span>
@@ -129,7 +129,6 @@ export default function Home() {
           <a
             href="Aazda"
             target="_blank"
-            rel="noopener noreferrer"
             className="text-[#98ff99] hover:text-[#98ff99]/80"
           >
             Aazda
