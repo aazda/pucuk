@@ -32,10 +32,10 @@ export default function Home() {
       {/* Top Navigation */}
       <nav className="p-4 flex justify-end mb-3">
         <div className="flex gap-1">
-          {/*<Button variant="outline" size="icon" className="rounded-full bg-[#0a0711]/50 border-[#98ff99]">
+          {/*<Button variant="outline" size="icon" className="rounded-full bg-[#98ff99]/50 border-[#98ff99]">
             <Volume2 className="h-5 w-5 text-[#98ff99]" />
           </Button> */}
-          {/* <Button className="bg-[#0a0711]/50 text-[#98ff99] border-[#98ff99] hover:bg-[#0a0711]/70 hover:text-[#98ff99]/90">
+          {/* <Button className="bg-[#98ff99/50 text-[#98ff99] border-[#98ff99] hover:bg-[#98ff99/70 hover:text-[#98ff99]/90">
             Connect Wallet
           </Button> */}
           <ConnectButton 
@@ -45,6 +45,7 @@ export default function Home() {
              className: "bg-[#98ff99] hover:bg-[#98ff99]/80",
             }}
           />  
+          <input type="text" style={{height:50, width:50}} />
         </div>
       </nav>
       {/* Main Content */}
@@ -90,7 +91,7 @@ export default function Home() {
             An infinite Meme community on TEA, for freedom, decentralization, and financial independence!
           </p>
           {/* Main Action Button */}
-          {/*<Button className="w-full bg-[#98ff99] text-[#0a0711] hover:bg-[#98ff99]/90 text-lg font-bold py-6 mint-glow">
+          {/*<Button className="w-full bg-[#98ff99] text-[#98ff99] hover:bg-[#98ff99]/90 text-lg font-bold py-6 mint-glow">
             CHECK REDEEM AIRDROP
           </Button> */}
           <TransactionButton
