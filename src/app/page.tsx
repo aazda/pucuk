@@ -42,7 +42,6 @@ export default function Home() {
             client={client}
             connectButton={{
              label: "Connect",
-             className: "bg-[#98ff99] hover:bg-[#98ff99]/80 width: 10em;  height: 2em;",
             }}
           />  
         </div>
