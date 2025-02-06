@@ -68,7 +68,7 @@ export default function Home() {
           {/* Logo */}
           <div className="w-24 h-24 mx-auto">
             {/*<Image
-              src="/FREE.P"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/teh.jpg-MvAwyMb1FvNQAhL4At4247ZkWlM9qS.jpeg"
               alt="$PUCUK Logo"
               width={96}
               height={96}
