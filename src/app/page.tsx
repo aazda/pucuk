@@ -31,7 +31,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col bg-[#0a0711]">
       {/* Top Navigation */}
       <nav className="p-4 flex justify-end mb-5">
-        <div className="flex gap-2">
+        <div className="flex gap-1">
           {/*<Button variant="outline" size="icon" className="rounded-full bg-[#0a0711]/50 border-[#98ff99]">
             <Volume2 className="h-5 w-5 text-[#98ff99]" />
           </Button> */}
@@ -53,7 +53,7 @@ export default function Home() {
       <main className="flex-1 flex items-center justify-center p-4 mb-10">
         <div className="max-w-md w-full space-y-8 text-center">
           {/* Social Links */}
-          <div className="flex justify-center gap-4 mb-6">
+          <div className="flex justify-center gap-3 mb-6">
             {/* <Button variant="outline" size="icon" className="rounded-full bg-[#0a0711]/50 border-[#98ff99]">
               <X className="h-5 w-5 text-[#98ff99]" />
             </Button>
@@ -113,7 +113,7 @@ export default function Home() {
           <div className="text-sm text-gray-400">Connect Your TEA Chain Address and Claim 3000 $PUCUK Tokens</div>
 
           {/* Generate Code Section */}
-          <div className="mt-12">
+          <div className="mt-8">
             <h2 className="drip-text text-2xl text-[#98ff99] font-bold mb-4">PUCUK PUCUK PUCUK PUCUK</h2>
             <p className="text-gray-300">RASA TEH TERBAIK ADA DI PUCUKNYA</p>
           </div>
