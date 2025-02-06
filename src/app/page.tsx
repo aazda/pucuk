@@ -127,9 +127,7 @@ export default function Home() {
           <span className="text-[#98ff99]">❤️</span>
           by
           <a
-            href="Aazda"
-            target="#"
-            rel="noopener noreferrer"
+            
             className="text-[#98ff99] hover:text-[#98ff99]/80"
           >
             Aazda
