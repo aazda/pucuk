@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-[#0a0711]">
       {/* Top Navigation */}
-      <nav className="p-4 flex justify-end mb-5">
+      <nav className="p-4 flex justify-end mb-3">
         <div className="flex gap-1">
           {/*<Button variant="outline" size="icon" className="rounded-full bg-[#0a0711]/50 border-[#98ff99]">
             <Volume2 className="h-5 w-5 text-[#98ff99]" />
@@ -44,11 +44,9 @@ export default function Home() {
              label: "Connect",
              className: "bg-[#98ff99] hover:bg-[#98ff99]/80",
             }}
-          />
-          
+          />  
         </div>
       </nav>
-
       {/* Main Content */}
       <main className="flex-1 flex items-center justify-center p-4 mb-10">
         <div className="max-w-md w-full space-y-8 text-center">
@@ -88,11 +86,9 @@ export default function Home() {
           </div>
 
           <h1 className="drip-text text-6xl text-[#98ff99] font-bold mt-6">$PUCUK</h1>
-
           <p className="text-lg text-gray-300 max-w-sm mx-auto">
             An infinite Meme community on TEA, for freedom, decentralization, and financial independence!
           </p>
-
           {/* Main Action Button */}
           {/*<Button className="w-full bg-[#98ff99] text-[#0a0711] hover:bg-[#98ff99]/90 text-lg font-bold py-6 mint-glow">
             CHECK REDEEM AIRDROP
@@ -116,15 +112,13 @@ export default function Home() {
           </div>
         </div>
       </main>
-
       {/* Footer */}
       <footer className="py-2 text-center text-gray-400">
         <p className="flex items-center justify-center gap-1">
           © 2025 Built with
           <span className="text-[#98ff99]">❤️</span>
           by
-          <a
-            
+          <a 
             className="text-[#98ff99] hover:text-[#98ff99]/80"
           >
             Aazda
