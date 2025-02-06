@@ -42,10 +42,10 @@ export default function Home() {
             client={client}
             connectButton={{
              label: "Connect",
-             className: "bg-[#98ff99] hover:bg-[#98ff99]/80",
+             className: "bg-[#98ff99] hover:bg-[#98ff99]/80 width: 20em;  height: 2em;",
+          
             }}
           />  
-          <input type="text" style={{height:50, width:50}} />
         </div>
       </nav>
       {/* Main Content */}
