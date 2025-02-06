@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-[#0a0711]">
       {/* Top Navigation */}
-      <nav className="p-4 flex justify-end mb-16">
+      <nav className="p-4 flex justify-end mb-10">
         <div className="flex gap-2">
           {/*<Button variant="outline" size="icon" className="rounded-full bg-[#0a0711]/50 border-[#98ff99]">
             <Volume2 className="h-5 w-5 text-[#98ff99]" />
@@ -121,7 +121,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="py-8 text-center text-gray-400">
+      <footer className="py-5 text-center text-gray-400">
         <p className="flex items-center justify-center gap-1">
           © 2025 Built with
           <span className="text-[#98ff99]">❤️</span>
