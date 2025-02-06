@@ -7,7 +7,7 @@ import { defineChain } from "thirdweb/chains";
 import { claimTo } from "thirdweb/extensions/erc20";
 import { useActiveAccount } from "thirdweb/react";
 import { useReadContract } from "thirdweb/react";
-
+import { lightTheme } from "thirdweb/react";
 
 const client = createThirdwebClient({
   clientId: "50b0ac2c536a1bfeb0f7befcaa00f8b5",
@@ -44,7 +44,15 @@ export default function Home() {
              label: "Connect",
              className: "bg-[#98ff99] hover:bg-[#98ff99]/80",
             }}
-          />  
+          />
+          <ConnectButton
+            client={client}
+            theme={lightTheme({
+             colors: {
+             modalBg: "red",
+             },
+          })}
+          />;  
         </div>
       </nav>
       {/* Main Content */}
