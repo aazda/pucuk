@@ -45,14 +45,6 @@ export default function Home() {
              className: "bg-[#98ff99] hover:bg-[#98ff99]/80",
             }}
           />
-          <ConnectButton
-            client={client}
-            theme={lightTheme({
-             colors: {
-             modalBg: "red",
-             },
-          })}
-          />;  
         </div>
       </nav>
       {/* Main Content */}
