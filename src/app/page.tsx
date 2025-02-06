@@ -108,13 +108,10 @@ export default function Home() {
                   >
                     CLAIM AIRDROP
                     </TransactionButton>
-                    
-
-          <div className="text-sm text-gray-400">Connect Your TEA Chain Address and Claim 3000 $PUCUK Tokens</div>
-
+          <div className="text-sm text-gray-400">Connect Your TEA Chain Address and Claim 3000 $PUCUK Tokens</div> 
           {/* Generate Code Section */}
-          <div className="mt-8">
-            <h2 className="drip-text text-2xl text-[#98ff99] font-bold mb-4">PUCUK PUCUK PUCUK PUCUK</h2>
+          <div className="mt-3">
+            <h2 className="drip-text text-2xl text-[#98ff99] font-bold mb-3">PUCUK PUCUK PUCUK PUCUK</h2>
             <p className="text-gray-300">RASA TEH TERBAIK ADA DI PUCUKNYA</p>
           </div>
         </div>
