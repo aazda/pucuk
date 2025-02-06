@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-[#0a0711]">
       {/* Top Navigation */}
-      <nav className="p-4 flex justify-end mb-16">
+      <nav className="p-4 flex justify-end mb-10">
         <div className="flex gap-2">
           {/*<Button variant="outline" size="icon" className="rounded-full bg-[#0a0711]/50 border-[#98ff99]">
             <Volume2 className="h-5 w-5 text-[#98ff99]" />
@@ -51,7 +51,7 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="flex-1 flex items-center justify-center p-4 mb-16">
-        <div className="max-w-md w-full space-y-5 text-center">
+        <div className="max-w-md w-full space-y-8 text-center">
           {/* Social Links */}
           <div className="flex justify-center gap-4 mb-6">
             {/* <Button variant="outline" size="icon" className="rounded-full bg-[#0a0711]/50 border-[#98ff99]">
@@ -121,14 +121,15 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="py-5 text-center text-gray-400">
+      <footer className="py-3 text-center text-gray-400">
         <p className="flex items-center justify-center gap-1">
           © 2025 Built with
           <span className="text-[#98ff99]">❤️</span>
           by
           <a
             href="Aazda"
-            target="_blank"
+            target="#"
+            rel="noopener noreferrer"
             className="text-[#98ff99] hover:text-[#98ff99]/80"
           >
             Aazda
