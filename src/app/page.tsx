@@ -50,7 +50,7 @@ export default function Home() {
       </nav>
 
       {/* Main Content */}
-      <main className="flex-1 flex items-center justify-center p-4 mb-16">
+      <main className="flex-1 flex items-center justify-center p-4 mb-10">
         <div className="max-w-md w-full space-y-8 text-center">
           {/* Social Links */}
           <div className="flex justify-center gap-4 mb-6">
