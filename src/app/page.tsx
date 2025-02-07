@@ -80,7 +80,7 @@ export default function Home() {
                 style={{
                   borderRadius: "1rem",
                   border: "1px solid #98ff99",
-                  boxShadow: "5px 5px 5px -1px rgba(0, 0, 0, 0.1)",
+                  boxShadow: "5px 5px 5px -1px #98ff99)",
                 }}
                 />
           </div>
