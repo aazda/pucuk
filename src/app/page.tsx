@@ -7,11 +7,19 @@ import { defineChain } from "thirdweb/chains";
 import { claimTo } from "thirdweb/extensions/erc20";
 import { useActiveAccount } from "thirdweb/react";
 import { useReadContract } from "thirdweb/react";
-import { lightTheme } from "thirdweb/react";
+import { createWallet } from "thirdweb/wallets";
 
 const client = createThirdwebClient({
   clientId: "50b0ac2c536a1bfeb0f7befcaa00f8b5",
 });
+
+const wallets = [
+  createWallet("io.metamask"),
+  createWallet("com.coinbase.wallet"),
+  createWallet("me.rainbow"),
+  createWallet("io.rabby"),
+  createWallet("io.zerion.wallet"),
+];
 
 const contract = getContract({
   client,
@@ -40,9 +48,10 @@ export default function Home() {
           </Button> */}
           <ConnectButton 
             client={client}
-            connectButton={{
-             label: "Connect",
-             className: "bg-[#98ff99] hover:bg-[#98ff99]/80",
+            wallets={wallets}
+            connectModal={{
+            size: "compact",
+            showThirdwebBranding: false,
             }}
           />
         </div>
