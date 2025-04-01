@@ -10,7 +10,7 @@ import { useReadContract } from "thirdweb/react";
 import { createWallet } from "thirdweb/wallets";
 
 const client = createThirdwebClient({
-  clientId: "50b0ac2c536a1bfeb0f7befcaa00f8b5",
+  clientId: "a7ff0eb603e6942d48ca89c9ef7e5d05",
 });
 
 const wallets = [
@@ -21,11 +21,25 @@ const wallets = [
   createWallet("io.zerion.wallet"),
 ];
 
+const teaSepolia = {
+  id: 10218,
+  name: "Tea Sepolia",
+  nativeCurrency: {
+    name: "Tea Sepolia",
+    symbol: "TEA",
+    decimals: 18,
+  },
+  rpc: "https://tea-sepolia.g.alchemy.com/public",
+  rpcUrls: ["https://tea-sepolia.g.alchemy.com/public"],
+  blockExplorers: [{ name: "Tea Explorer", url: "https://sepolia.tea.xyz/" }],
+};
+
 const contract = getContract({
   client,
-  chain: defineChain(93384),
-  address: "0x5917746c0c59C3c8D1662C5EC362aCC905503b22",
+  chain: teaSepolia, // Pastikan menggunakan chain yang didefinisikan
+  address: "0x6943D7f859C379299c763Dbc420e87FD0114f30E",
 });
+
 
 export default function Home() {
   const account = useActiveAccount();
